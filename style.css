@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eeeeee;
+  
+}
+
+/* Navbar */
+.navbar {
+  background-color: #393E46;
+  margin-top: 10px;
+  border-radius: 25px;
+  overflow: hidden;
+  width: 95%;
+  position: block;
+  top: 0;
+  font-size: 17px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: #EEEEEE;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.navbar li a:hover {
+  background-color: #00ADB5;
+}
+
+
+/* Main Content */
+.container {
+  padding-top: 15px;
+  display: block;
+  width: 98%;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Jadwal Lomba */
+
+
+.jadwal-1 {
+  width: 100%;
+  position: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Informasi Juri */
+
+/* Informasi Pendaftaran */
+.pendaftaran {
+  background-color: #222831;
+  padding: 20px;
+  color: #EEEEEE;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pengumpulan {
+  background-color: #00ADB5;
+  padding: 20px;
+  color: #EEEEEE;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+  background-color: #393E46;
+  color: #EEEEEE;
+  padding: 10px;
+  margin-top: 15px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 12px;
+  opacity: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+  
+    .jadwal-1 {
+      width: 55%;
+      display: flex;
+      text-align: center;
+    }
+    .pendaftaran {
+      height: 60%;
+    }
+  }
+
+
+.welcome-header {
+    background-color: #106D6E;
+    color: #FFF;
+    text-align: center;
+    padding: 100px 0px;
+    margin-top: 12px;
+}
+
+.welcome-text {
+    max-width: 800px;
+   
+}
+
+p {
+    font-size: 12px;
+}
+
+
+
+.button-container {
+    text-align: center;
+}
+
+.cool-button {
+    background-color: #00ADB5;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border: 2px solid black;
+}
+
+.cool-button:hover {
+    background-color: #393E46;
+    border: 2px solid white;
+}
+
